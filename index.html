@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Detect Face</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+</head>
+
+<body>
+  <!--
+  <div id="container">
+    <canvas id="canvas" width="320" height="240"></canvas>
+    <video id="video" width="320" height="240" preload autoplay loop muted></video>
+  </div>
+  -->
+
+  <div id="face-container">
+    <video id="video" width="320" height="240" preload autoplay loop muted></video>
+    <canvas id="face-content" width="320" height="240"></canvas>
+  </div>
+  <canvas id="face-detect-crop" width="320" height="240"></canvas>
+
+  <link href="style.css" rel="stylesheet">
+
+  <script src="node_modules/tracking/build/tracking-min.js"></script>
+  <script src="node_modules/tracking/build/data/face-min.js"></script>
+  <script src="node_modules/dat.gui/build/dat.gui.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="tracker.js"></script> 
+  <!-- <script src="camera.js"></script> -->
+</body>
+</html>

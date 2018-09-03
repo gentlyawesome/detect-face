@@ -1,0 +1,16 @@
+{
+  "name": "detect-face",
+  "version": "1.0.0",
+  "description": "",
+  "main": "camera.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dat.gui": "^0.7.2",
+    "jquery": "^3.3.1",
+    "tracking": "^1.1.3"
+  }
+}
